@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-link = input("Enter the link: ")
+link = input("Enter the link (Paste it from the clipboard): ")
 yt = YouTube(link)
 
 # Description of the video request:-
